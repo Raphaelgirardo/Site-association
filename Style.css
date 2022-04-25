@@ -66,6 +66,32 @@ header h4 {
 
 .meetings {
   padding: 30px;
+  background-color: #cee7b5;
+  color: black;
+}
+
+.meetings h1,
+.meetings p {
+  text-align: center;
+}
+
+.meetings .evenements {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.meetings .evenements .event {
+  background-color: #cee7b5;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.meetings .event img {
+  height: 250px;
 }
 
 @media screen and (max-width: 810px) {
