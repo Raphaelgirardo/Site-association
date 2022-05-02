@@ -78,7 +78,7 @@ header h4 {
 .meetings .evenements {
   margin-top: 30px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -92,6 +92,11 @@ header h4 {
 
 .meetings .event img {
   height: 250px;
+}
+
+.meetings button {
+  border: none;
+  padding: 10px 20px;
 }
 
 @media screen and (max-width: 810px) {
