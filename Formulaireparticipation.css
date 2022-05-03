@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@600&family=Roboto+Mono&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+form {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+form hr {
+  border: #669933 solid 1px;
+}
+
+form .corps-formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+form .corps-formulaire .boite {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 5px;
+  margin-right: 40px;
+  padding: 10px 5px 10px 5px;
+  border: 1px solid lightgrey;
+  outline-color: #669933;
+  border-radius: 5px;
+}
+
+form .corps-formulaire .formulaire-droite .boite {
+  height: 100%;
+}
+
+textarea {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 2px solid #669933;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+}
+
+form .pied-formulaire button {
+  margin-top: 10px;
+  background-color: #669933;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form .pied-formulaire button:hover {
+  transform: scale(1.05);
+}
